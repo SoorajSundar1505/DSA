@@ -5,3 +5,7 @@ git add .
 git status
 git commit -u "message"
 git push -u origin <RemoteLocal> or git push -u origin main
+
+pull
+git fetch origin main
+git merge origin/main
