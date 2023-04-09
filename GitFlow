@@ -1,0 +1,7 @@
+Git
+
+git init
+git add .
+git status
+git commit -u "message"
+git push -u origin <RemoteLocal> or git push -u origin main
