@@ -13,11 +13,12 @@ public class CoinChange {
         Arrays.fill(dp,amount+1);
         dp[0]=0;
         for(int i=1;i<=amount;i++){
-            for(int c:coin){
-                if(i>=c) dp[i]=Math.min(dp[i],dp[i-c]+1);
+            for(int c :coin){
+                if(i>=c) dp[i] = Math.min(dp[i],dp[i-c]+1);
             }
         }
         return dp[amount]>amount?-1:dp[amount];
-
     }
 }
+
+
