@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="721e2649-9b02-44f9-aa93-ce5a5b67b39e" name="Changes" comment="&quot;New Changes&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitFlow" beforeDir="false" afterPath="$PROJECT_DIR$/GitFlow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/SubArrayWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/SubArrayWithGivenSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TestNG Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -43,12 +47,36 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/suraj/OneDrive/Desktop/OpenSource/LogAgent&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JumpGameII">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.CoinChange" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="DP" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClimbingStairsKSteps">
+    <configuration name="ClimbingStairsKSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.ClimbingStairsKSteps" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.MissingNumber" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -60,21 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.IsomorphicString" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JumpGameII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.JumpGameII" />
+    <configuration name="NoOfSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.NoOfSubArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinConsecutiveCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MinConsecutiveCard" />
+    <configuration name="SubArrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.SubArrayWithGivenSum" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -99,20 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinJump" />
+    <configuration name="listRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.listRotation" />
       <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JumpGameII" />
-        <item itemvalue="Application.MinConsecutiveCard" />
-        <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.IsomorphicString" />
-        <item itemvalue="Application.MinJump" />
+        <item itemvalue="Application.ClimbingStairsKSteps" />
+        <item itemvalue="Application.MissingNumber" />
+        <item itemvalue="Application.listRotation" />
+        <item itemvalue="Application.SubArrayWithGivenSum" />
+        <item itemvalue="Application.NoOfSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -275,11 +296,6 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/CoinChange.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Array/MinConsecutiveCard.java</url>
           <line>10</line>
           <option name="timeStamp" value="44" />
@@ -288,6 +304,21 @@
           <url>file://$PROJECT_DIR$/src/Array/JumpGameII.java</url>
           <line>11</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP/nSums.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/CoinChange.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP/MinCostClimbinStair.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
