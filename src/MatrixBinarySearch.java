@@ -5,7 +5,7 @@ public class MatrixBinarySearch {
         int[][] nums = {{1,2,3,4},{10,11,16,20},{23,25,26,28}};
         int target = 1;
         boolean result = search(nums,target);
-        System.out.println(result);
+//        System.out.println(result);
     }
 
     public static boolean search(int[][] nums, int target){
