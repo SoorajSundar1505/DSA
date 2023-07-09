@@ -23,6 +23,11 @@ jobs:
             curl --location --request POST 'https://circleci.com/api/v2/project/github/SoorajSundar1505/Selenium-Java/pipeline' \
             --header 'Content-Type: application/json' \
             -u "CCIPAT_wpmXdXaJUkGKzDEeM3L3d_83b449287c57a635a9ab00ebaa23bd8ab9bd98f7"
+            
+workflows:
+  say-hello-workflow:
+    jobs:
+      - trigger-selenium
 
       # Use mvn clean and package as the standard maven build phase
 #      - run:
