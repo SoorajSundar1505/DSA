@@ -1,105 +1,163 @@
 package LinkedList_DS;
 
-
-
 public class LinkedList {
-    private Node head;
-    private Node tail;
-    private int size = 1;
+    static Node head;
 
-    public LinkedList(){
-        this.size=0;
-    }
-    private class Node {
-        private int value;
-        private Node next;
+    public void append(int data) {
+        Node newNode = new Node(data);
 
-
-        public Node (int value){
-            this.value=value;
+        if (head == null) {
+            head = newNode;
+        } else {
+            Node current = head;
+            while (current.next != null) {
+                current = current.next;
+            }
+            current.next = newNode;
         }
-
-        public Node (int value, Node next){
-            this.value=value;
-            this.next = next;
-        }
-        }
-
-
-    public void insertFirst(int val){
-        Node node = new Node(val);
-        node.next = head;
-        head=node;
-        if(tail==null){
-            tail=head;
-        }
-        size+=1;
     }
 
-    public void Display() {
-        Node temp = head;
-        while (temp != null) {
-            System.out.print(temp.value+"->");
-            temp = temp.next;
-        }
-        System.out.println("End");
+    public void prepend(int data) {
+        Node newNode = new Node(data);
+        newNode.next = head;
+        head = newNode;
     }
 
-    public void insertLast(int val){
-        if(tail==null){
-            insertFirst(val);
+    public void insertAfter(Node prevNode, int data) {
+        if (prevNode == null) {
+            System.out.println("Previous node cannot be null.");
             return;
         }
-        Node node = new Node(val);
-        tail.next=node;
-        tail = node;
-        size++;
+
+        Node newNode = new Node(data);
+        newNode.next = prevNode.next;
+        prevNode.next = newNode;
     }
 
-    public void insertLastNoTail(int val){
-        Node node = new Node(val);
-        if(head==null){
-            head=new Node(node.value);
+    public void delete(int data) {
+        if (head == null) {
             return;
         }
-        node.next=null;
-        Node temp = head;
-        while(temp.next!=null){
-            temp=temp.next;
-            temp.next=node;
-        }
-        size++;
 
-    }
-
-    public void insertAtPos(int val, int index){
-        if(index==0){
-            insertFirst(val);
+        if (head.data == data) {
+            head = head.next;
             return;
         }
-        Node temp = head;
-        for(int i=1;i<index;i++){
-            temp=temp.next;
-        }
-        Node node = new Node(val,temp.next);
-        temp.next = node;
-        size++;
-    }
 
-
-
-
-    public Node reverse(){
-        Node curr = head;
+        Node current = head;
         Node prev = null;
-        Node fwd = null;
-        while(curr!=null){
-            fwd = curr.next;
-            curr.next=prev;
-            prev=curr;
-            curr=fwd;
+        while (current != null && current.data != data) {
+            prev = current;
+            current = current.next;
+        }
+
+        if (current == null) {
+            return;
+        }
+
+        prev.next = current.next;
+    }
+
+
+
+
+    public int findMiddleElement(){
+        Node slow = head;
+        Node fast = head;
+        while(fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
+        }
+        return slow.data;
+    }
+
+    public Node deleteMiddle(){
+//        Node start = new Node(0);
+//        start.next=head;
+//        Node slow = start;
+//        Node fast = start;
+//        while(fast.next!=null && fast.next.next!=null){
+//            slow=slow.next;
+//            fast=fast.next.next;
+//
+//        }
+//        slow.next=slow.next.next;
+//        return start.next;
+
+        Node start=new Node(0);
+        start.next=head;
+        Node slow=start;
+        Node fast=start;
+        while(fast.next!=null && fast.next.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
 
         }
-        return prev;
+        slow.next=slow.next.next;
+        return start.next;
+    }
+
+    public void printElement(){
+        Node temp = head;
+        while(temp!=null){
+            System.out.print(temp.data+" ");
+            temp=temp.next;
+        }
+        System.out.println();
+    }
+
+    public void display() {
+        Node current = head;
+        while (current != null) {
+            System.out.print(current.data + " ");
+            current = current.next;
+        }
+        System.out.println();
+    }
+
+    public Node removeDupeElementInSorted(){
+//        Node dummy = new Node(0);
+//        dummy.next = head;
+        Node dummy=head;
+        while(dummy!=null && dummy.next!=null){
+            if(dummy.data ==dummy.next.data){
+                dummy.next=dummy.next.next;
+            }else{
+                dummy=dummy.next;
+            }
+
+        }
+        return head;
+    }
+
+    public void reverse() {
+        Node prev = null;
+        Node current = head;
+        Node next = null;
+
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+
+        head = prev;
+    }
+
+
+    public void deleteEveryKthNode(int k){
+        int c = 1;
+        Node temp = head;
+        Node prev = null;
+        while(temp!=null){
+            if(c%k==0){
+                prev.next=temp.next;
+            }else{
+                prev=temp;
+            }
+            temp=temp.next;
+            c++;
+        }
     }
 }

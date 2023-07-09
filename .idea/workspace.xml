@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721e2649-9b02-44f9-aa93-ce5a5b67b39e" name="Changes" comment="&quot;New Changes&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList_DS/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_DS/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList_DS/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/isUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/isUnique.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TestNG Test Class" />
+        <option value="package-info" />
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -39,16 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/suraj/OneDrive/Desktop/OpenSource/LogAgent&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/AutomationFramework/SeleniumJava",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -57,9 +70,22 @@
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TrappingRainWater">
-    <configuration name="MaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MaxSum" />
+  <component name="RunManager" selected="Application.Interview1">
+    <configuration name="Interview1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mockInterview.Interview1" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockInterview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="countPairsWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.countPairsWithGivenSum" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.RotateMatrix" />
+    <configuration name="deleteEveryKthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList_DS.deleteEveryKthNode" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="LinkedList_DS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.TrappingRainWater" />
+    <configuration name="minDistande" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.minDistande" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,21 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="addK_SubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.addK_SubArray" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="isUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.isUnique" />
+    <configuration name="stringEncrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.stringEncrypt" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.MaxSum" />
-        <item itemvalue="Application.RotateMatrix" />
-        <item itemvalue="Application.isUnique" />
-        <item itemvalue="Application.addK_SubArray" />
+        <item itemvalue="Application.Interview1" />
+        <item itemvalue="Application.countPairsWithGivenSum" />
+        <item itemvalue="Application.stringEncrypt" />
+        <item itemvalue="Application.minDistande" />
+        <item itemvalue="Application.deleteEveryKthNode" />
       </list>
     </recent_temporary>
   </component>
@@ -222,8 +235,8 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList_DS/LinkedList.java</url>
-          <line>92</line>
+          <url>file://$PROJECT_DIR$/src/LinkedList1.java</url>
+          <line>88</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -426,6 +439,85 @@
           <line>9</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/isUnique.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CrackingTheCodingInterview/src/test/java/isPermutation.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/MinInRotatedSortedArray.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CrackingTheCodingInterview/src/test/java/oneAway.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CrackingTheCodingInterview/src/test/java/stringCompression.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/slidingWindow.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/largestNumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/searchSubSeq.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/minWindow.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/removeDuplicateInSortedArrayII.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/slidingWindowMaxsubArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/PermutationStr.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/kRadiusSubArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/NoOfRotation.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList_DS/LinkedList.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="82" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
