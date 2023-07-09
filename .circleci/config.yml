@@ -27,27 +27,27 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
-
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "build.gradle" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
-
-      - run: gradle dependencies
-
-      - save_cache:
-          paths:
-            - ~/.gradle
-          key: v1-dependencies-{{ checksum "build.gradle" }}
-
-      # run tests!
-      - run: gradle test
-
       - run:
         name: Kick off selenium pipeline
         command: |
           curl --location --request POST 'https://circleci.com/api/v2/project/github/SoorajSundar1505/Selenium-Java/pipeline' \
           --header 'Content-Type: application/json' \
           -u "CCIPAT_wpmXdXaJUkGKzDEeM3L3d_83b449287c57a635a9ab00ebaa23bd8ab9bd98f7"
+
+#      # Download and cache dependencies
+#      - restore_cache:
+#          keys:
+#            - v1-dependencies-{{ checksum "build.gradle" }}
+#            # fallback to using the latest cache if no exact match is found
+#            - v1-dependencies-
+#
+#      - run: gradle dependencies
+#
+#      - save_cache:
+#          paths:
+#            - ~/.gradle
+#          key: v1-dependencies-{{ checksum "build.gradle" }}
+
+      # run tests!
+#      - run: gradle test
+
