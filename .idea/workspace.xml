@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721e2649-9b02-44f9-aa93-ce5a5b67b39e" name="Changes" comment="&quot;New Changes&quot;" />
+    <list default="true" id="721e2649-9b02-44f9-aa93-ce5a5b67b39e" name="Changes" comment="&quot;New Changes&quot;">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
